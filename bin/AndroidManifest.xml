@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.learn2develop.helloworld"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Dialog">
+        <activity
+            android:name="net.learn2develop.helloworld.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/second_activity_name"
+            android:name=".SecondActivity" >
+            <intent-filter>
+                <action android:name="net.learn2develop.helloworld.SecondActivity" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/third_activity_name"
+            android:name=".ThirdActivity" >
+            <intent-filter>
+                <action android:name="net.learn2develp.helloworld.ThirdActivity" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/fourth_activity_name"
+            android:name=".FourthActivity" >
+            <intent-filter>
+                <action android:name="net.learn2develp.helloworld.FourthActivity" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/time_picker_name"
+            android:name=".TimePickerActivity">
+            <intent-filter>
+                <action android:name="net.learn2develop.helloworld.TimePickerActivity" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

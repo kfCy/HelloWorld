@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to display a dialog"
+        android:onClick="onClick" />  
+        
+    <Button
+        android:id="@+id/btn_dialog2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to display a progress dialog"
+        android:onClick="onClick2" />
+    
+    <Button
+        android:id="@+id/btn_dialog3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to display a detailed progress dialog"
+        android:onClick="onClick3" />
+    
+    <Button
+        android:id="@+id/btn_diaglog4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Display second activity"
+        android:onClick="onClick4" />
+    
+    <Button
+        android:id="@+id/btn_passingdata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to go to Third activity"
+        android:onClick="onClickPassingData" />
+    
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to go to Fragment"
+        android:onClick="onClickFragment" />
+    
+    <Button
+        android:id="@+id/btn_timepicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TimePicker"
+        android:onClick="onClickTimePicker" />
+    
+</LinearLayout>
